@@ -1,0 +1,3 @@
+https://colorcodes.io/blue/baby-blue-color-codes/
+https://getbootstrap.com/docs/5.3/getting-started/introduction/
+https://css-tricks.com/snippets/css/complete-guide-grid/#:~:text=CSS%20Grid%20basics&text=To%20get%20started%20you%20have,%2Dcolumn%20and%20grid%2Drow%20.

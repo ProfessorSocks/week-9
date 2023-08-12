@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<body style="background-color:rgb(155,211,221)">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link type="text/css" rel="stylesheet" href="stylesheet.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+        <script type="text/javascript">
+            (function () {
+                // https://dashboard.emailjs.com/admin/account
+                emailjs.init('6LxAk9vHSgSh9PF5f');
+            })();
+        </script>
+    </head>
+
+    <div class="body1">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html"><img src="../images/supersitterbest.png" height="20"
+                        width="30"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Menu
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="kidspage.html">Gallery</a></li>
+                                <li><a class="dropdown-item" href="calender.html">Calender</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+
+                        <form class="d-flex" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-success" type="submit">Search</button>
+                        </form>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <div class="container">
+        <div >
+            <iframe id="calendar-iframe"
+                src="https://calendar.google.com/calendar/embed?src=sheyladepaz2001%40gmail.com&ctz=America%2FLos_Angeles"
+                style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+        </div>
+    </div>
+
+    <div class="body1">
+
+        <h2>Contact me</h2>
+        <form name="requestForm" method="GET">
+            <input id="textbox1" type="email" name="email" value="" placeholder="Email">
+            <input id="textbox1" type="text" name="phoneNum" value="" placeholder="Phone Number">
+            <input id="textbox1" type="text" name="childName" value="" placeholder="Name of Child">
+            <input id="textbox1" type="text" name="childAge" value="" placeholder="Age of child">
+            <br>
+            <h6 style="padding: 10px;"> Enter information about your child. Dietary restrictions? Favorite Activities?
+            </h6>
+            <textarea id="textarea1" rows="5" cols="100" name="childInfo">
+             </textarea><br>
+            <input type="button" name="button" value="Click" onClick="collectData(this.form)">
+        </form>
+
+        </form>
+
+    </div>
+
+
+
+    <script src="../play.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
